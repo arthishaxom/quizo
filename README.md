@@ -1,16 +1,32 @@
-# quizo
+# Quizo
 
-A new Flutter project.
+Quizo is an internship assestment Quiz app, which uses the api : https://api.jsonserve.com/Uw5CrX for retrieve the Questions.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Clean Aesthetic Design**: Inspired by Shadcn UI, the app offers a modern and intuitive interface for an enhanced user experience.
 
-A few resources to get you started if this is your first Flutter project:
+- **Comprehensive Results**: At the end of each quiz, the app showcases the number of correct, incorrect, and unanswered questions, providing detailed feedback on your performance.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Cross-Platform Compatibility**: Developed using Flutter, the app runs smoothly on both iOS and Android devices, and Web ensuring a wide reach and consistent functionality.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run Locally
+
+Clone the Project
+
+```bash
+  git clone https://github.com/arthishaxom/quizo.git
+```
+
+Install the dependencies
+
+```bash
+  cd quizo
+  flutter pub get
+```
+
+Run the App on Device or Emulator
+
+```bash
+  flutter run
+```
